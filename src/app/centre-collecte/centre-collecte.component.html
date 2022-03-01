@@ -1,0 +1,22 @@
+<div *ngIf="centreCollectes">
+  <div *ngFor="let c of centreCollectes">
+    <div class="col-md-6">
+    <div class="panel panel-default">
+      <div class="panel-heading"> CENTRE COLLECTE  {{c.nomCtrCtr}}</div>
+      <div class="panel-body">
+        <table>
+          <tr>
+            <td>Nom </td> <td> Code </td>  <td> Gouvernerat</td>
+          </tr>
+          <tr>
+            <td>{{c.codOrgstkOrgstk}}</td> <td>{{c.codCtrCtr}}</td> <td>{{c.gouvernoratId}}</td>
+          </tr>
+        </table>
+
+
+      </div>
+    </div>
+    </div>
+  </div>
+
+</div>
